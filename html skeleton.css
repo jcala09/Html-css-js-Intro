@@ -1,0 +1,41 @@
+html {
+    /* whole html file*/
+    background-color: lightblue;
+    font-size: 10 px;
+}
+
+body {
+    width: 1000 px;
+    margin: 0 auto;
+    background-color: #4e96a3;
+    padding: 0 10px 10px 10px;
+    /* top, right, bottom, left */
+    border: 5px transparent gray;
+}
+
+h1 {
+    /* header 1*/
+    font-size: 100 px;
+    text-align: center;
+    text-shadow: 3px 3px 1px black;
+    /* horizontal offset, vertical offset, blur radius, shadow color */
+    color: white;
+}
+
+p,
+li
+/* paragraph, list item */
+
+{
+    color: teal;
+    font-size: 16 px;
+    line-height: 2;
+    text-align: justify;
+    letter-spacing: 2 px;
+    font-family: "Odibee Sans", sans-serif;
+}
+
+img {
+    margin: 0 auto;
+    display: block;
+}
